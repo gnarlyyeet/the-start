@@ -15,7 +15,7 @@ app.title("tictactoe")
 #UI
 title = customtkinter.CTkLabel(app, text="TicTacToe")
 title.pack(padx=10, pady=10)
-image1 = Image.open("<C:/Users/aritz/Desktop/bs/1Pzpe.png>")
+image1 = Image.open()
 test = ImageTk.PhotoImage(image1)
 label1 = tkinter.Label(image=test)
 label1.image = test
